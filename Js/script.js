@@ -2,26 +2,36 @@
 function contagem() {
 
     var c = 10;
-    var texto;
-    var resposta = document.getElementById('contagem');
+    var resposta = document.getElementById('resultado');
     while (c >= 0) {
-        texto = c;
-        resposta.innerHTML += texto + "<br />";
+        resposta.innerHTML += c + "<br />";
         c--;
 
     }
 
 }
 
-function tabuada()
+function tabuada() {
 
-var c = 1 * 5;
-var texto;
-var resposta = document.getElementById('tabuada');
-while (c < 5 * 10) {
+    var c = 0;
+    var resposta = document.getElementById('tabuada');
+    var resultado;
+    while (c <= 10) {
+        resultado = c * 5
+        resposta.innerHTML += c + " * " + " 5 = " + resultado + "<br />";
+        c++;
 
-    texto = c;
-    resposta.innerHTML += texto + "<br />";
-    c--;
+    }
+}
+
+function zero() {
+
+    var n =  ;
+    var atezero = document.getElementById('zero');
+    while (n >= 0) {
+        atezero.innerHTML += c + "<br />";
+        n--;
+
+    }
 
 }
